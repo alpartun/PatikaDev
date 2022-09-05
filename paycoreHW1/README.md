@@ -1,0 +1,1 @@
+# alpartun_guvendiren_hafta1

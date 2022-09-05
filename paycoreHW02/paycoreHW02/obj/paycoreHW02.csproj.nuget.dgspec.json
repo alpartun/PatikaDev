@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/aartung/Projects/paycoreHW02/paycoreHW02/paycoreHW02.csproj": {}
+  },
+  "projects": {
+    "/Users/aartung/Projects/paycoreHW02/paycoreHW02/paycoreHW02.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aartung/Projects/paycoreHW02/paycoreHW02/paycoreHW02.csproj",
+        "projectName": "paycoreHW02",
+        "projectPath": "/Users/aartung/Projects/paycoreHW02/paycoreHW02/paycoreHW02.csproj",
+        "packagesPath": "/Users/aartung/.nuget/packages/",
+        "outputPath": "/Users/aartung/Projects/paycoreHW02/paycoreHW02/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aartung/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.2.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
